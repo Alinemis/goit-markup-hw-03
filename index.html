@@ -25,25 +25,29 @@
     <header class="header">
       <div class="header-container container">
         <nav class="header-nav">
-          <a class="logo link" href="./index.html"
+          <a class="logo link header-logo" href="./index.html"
             >Web<span class="span-logo">Studio</span></a
           >
           <ul class="header-list list">
-            <li><a class="header-link link" href="./index.html">Studio</a></li>
-            <li>
+            <li class="header-item">
+              <a class="header-link link" href="./index.html">Studio</a>
+            </li>
+            <li class="header-item">
               <a class="header-link link" href="./portfolio.html">Portfolio</a>
             </li>
-            <li><a class="header-link link" href="">Contacts</a></li>
+            <li class="header-item">
+              <a class="header-link link" href="">Contacts</a>
+            </li>
           </ul>
         </nav>
         <address class="header-address">
           <ul class="header-address-list list">
-            <li>
+            <li class="header-item">
               <a class="header-contact link" href="mailto:info@devstudio.com"
                 >info@devstudio.com</a
               >
             </li>
-            <li>
+            <li class="header-item">
               <a class="header-contact link" href="tel:+110001111111"
                 >+11 (000) 111-11-11</a
               >
@@ -56,9 +60,9 @@
     <main class="main">
       <!--section hero-->
       <section class="hero">
-        <div class="container">
+        <div class="container container-hero">
           <h1 class="hero-title">Effective Solutions for Your Business</h1>
-          <button class="hero-button" type="button">Order Service</button>
+          <button class="hero-button btn" type="button">Order Service</button>
         </div>
       </section>
       <!--section information-->
@@ -135,44 +139,75 @@
           <h2 class="team-title title">Our Team</h2>
           <ul class="team-list list">
             <li class="team-item">
-              <img
-                class="team-img"
-                src="./images/team/img1.jpg"
-                alt="Mark Guerrero Product Designer"
-                width="264"
-              />
-              <h3 class="team-second-title">Mark Guerrero</h3>
-              <p class="team-text">Product Designer</p>
+              <article class="card">
+                <div class="card-img">
+                  <img
+                    class="team-img"
+                    src="./images/team/img1.jpg"
+                    alt="Mark Guerrero Product Designer"
+                    width="264"
+                  />
+                </div>
+
+                <div class="card-text">
+                  <h3 class="team-second-title">Mark Guerrero</h3>
+                  <p class="team-text">Product Designer</p>
+                </div>
+              </article>
             </li>
+
             <li class="team-item">
-              <img
-                class="team-img"
-                src="./images/team/img2.jpg"
-                alt="Tom Ford Frontend Developer"
-                width="264"
-              />
-              <h3 class="team-second-title">Tom Ford</h3>
-              <p class="team-text">Frontend Developer</p>
+              <article class="card">
+                <div class="card-img">
+                  <img
+                    class="team-img"
+                    src="./images/team/img2.jpg"
+                    alt="Tom Ford Frontend Developer"
+                    width="264"
+                  />
+                </div>
+
+                <div class="card-text">
+                  <h3 class="team-second-title">Tom Ford</h3>
+                  <p class="team-text">Frontend Developer</p>
+                </div>
+              </article>
             </li>
+
             <li class="team-item">
-              <img
-                class="team-img"
-                src="./images/team/img3.jpg"
-                alt="Camila Garcia Marketing"
-                width="264"
-              />
-              <h3 class="team-second-title">Camila Garcia</h3>
-              <p class="team-text">Marketing</p>
+              <article class="card">
+                <div class="card-img">
+                  <img
+                    class="team-img"
+                    src="./images/team/img3.jpg"
+                    alt="Camila Garcia Marketing"
+                    width="264"
+                  />
+                </div>
+
+                <div class="card-text">
+                  <h3 class="team-second-title">Camila Garcia</h3>
+                  <p class="team-text">Marketing</p>
+                </div>
+              </article>
             </li>
+
             <li class="team-item">
-              <img
-                class="team-img"
-                src="./images/team/img4.jpg"
-                alt="Daniel Wilson UI Designer"
-                width="264"
-              />
-              <h3 class="team-second-title">Daniel Wilson</h3>
-              <p class="team-text">UI Designer</p>
+              <article class="card">
+                <div class="card-img">
+                  <img
+                    class="team-img"
+                    src="./images/team/img4.jpg"
+                    alt="Daniel Wilson UI Designer"
+                    width="264"
+                  />
+                </div>
+
+                <div class="card-text">
+                  <h3 class="team-second-title">Daniel Wilson</h3>
+                  <p class="team-text">UI Designer</p>
+                </div>
+              </article>
             </li>
           </ul>
         </div>
@@ -181,7 +216,7 @@
     <!--footer-->
     <footer class="footer">
       <div class="container">
-        <a class="logo link" href="./index.html"
+        <a class="logo link logo-footer" href="./index.html"
           >Web<span class="span-footer-logo">Studio</span></a
         >
         <p class="footer-text">
