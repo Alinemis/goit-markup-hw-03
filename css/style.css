@@ -324,13 +324,13 @@ img {
 }
 
 .portfolio-item-btn {
-  border: 1px solid var(--border);
   border-radius: 4px;
 }
 
 .portfolio-btn {
   padding: 12px 24px;
   min-width: 69px;
+  border: 1px solid var(--border);
 
   background-color: var(--light-color);
   color: var(--btn--logo-color);
@@ -361,6 +361,7 @@ img {
 .inform-portfolio {
   padding: 32px 16px;
   border: 1px solid var(--border);
+  border-top: none;
 }
 
 .portfolio-third-title {
