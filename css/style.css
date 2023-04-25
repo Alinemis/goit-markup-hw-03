@@ -125,7 +125,7 @@ img {
 
 .header-list {
   display: flex;
-  column-gap: 40px;
+  gap: 40px;
 }
 
 .header-link:hover,
@@ -205,7 +205,7 @@ img {
 
 .inform-list {
   display: flex;
-  column-gap: 24px;
+  gap: 24px;
 }
 
 .inform-item {
@@ -235,7 +235,7 @@ img {
 
 .product-list {
   display: flex;
-  column-gap: 24px;
+  gap: 24px;
 }
 
 /* team section */
@@ -253,7 +253,7 @@ img {
 
 .team-list {
   display: flex;
-  column-gap: 24px;
+  gap: 24px;
 }
 
 .team-item {
@@ -320,7 +320,7 @@ img {
   display: flex;
   margin-bottom: 72px;
   justify-content: center;
-  column-gap: 24px;
+  gap: 24px;
 }
 
 .portfolio-item-btn {
